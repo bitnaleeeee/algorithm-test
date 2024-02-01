@@ -1,18 +1,21 @@
 function solution(n) {
     var answer = 0;
+    for (i=1; i<=n; i++){
 
-    for (i=1; i<=n; i++) {
-       if ( n % 2 === 0 && i) {
+       if ( n % 2 === 0) {
          if ( i % 2 === 0) {
-             answer += (i ** 2)
+             console.log(i)        
          }
+
        } 
     
         else {
             if ( i % 2 === 1) {
-            answer += i        
-            }            
-        }       
+                console.log(i)
+            }
+        }
+        
+        
     }
     return answer;
 }
